@@ -1,0 +1,25 @@
+{
+  "name": "com.netcore.com",
+  "version": "1.0.0",
+  "description": "Testing cordova plugin",
+  "cordova": {
+    "id": "com.NetCore.com",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishsharma93/CordovaPlugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Manish Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishsharma93/CordovaPlugin/issues"
+  },
+  "homepage": "https://github.com/manishsharma93/CordovaPlugin#readme"
+}
