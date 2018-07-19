@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Testing cordova plugin",
   "cordova": {
-    "id": "com.NetCore.com",
+    "id": "smartech-ios",
     "platforms": [
       "ios"
     ]
