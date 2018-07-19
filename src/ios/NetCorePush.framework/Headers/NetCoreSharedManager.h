@@ -95,7 +95,11 @@
  @param  appGroup - contain appGroup string. Usually, group.<your-bundle-identifier>. eg., group.com.CompanyName.productName
  */
 -(void)setUpAppGroup:(NSString *)appGroup;
-
+/*
+ @Method optOut: this method is used to opt for Data Protection Laws.
+ @param  optFlag - If it is True, then it will stop processing user's events and user will not receive any kind of Push/InApp Notifications from Panel. Default Value is False.
+ */
+-(void)optOut:(BOOL)optFlag;
 
 
 
