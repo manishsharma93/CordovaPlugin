@@ -1,2 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="smartech-ios" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>Cordova-Manish</name><js-module name="Cordova-Manish" src="www/Cordova-Manish.js"><clobbers target="cordova.plugins.Cordova-Manish" /></js-module><platform name="ios"><config-file parent="/*" target="config.xml"><feature name="Cordova-Manish"><param name="ios-package" value="Cordova-Manish" /></feature></config-file><source-file src="src/ios/NetCorePushPlugin.m" /><source-file src="src/ios/NetCorePushPlugin.h" /><source-file src="src/ios/NetCorePush.framework" /></platform></plugin>
+<plugin id="smartech-ios" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>Cordova-Manish</name>
+  <js-module name="Cordova-Manish" src="www/Cordova-Manish.js">
+    <clobbers target="cordova.plugins.Cordova-Manish" />
+  </js-module>
+  <platform name="ios">
+  <config-file parent="/*" target="config.xml">
+    <feature name="Cordova-Manish">
+      <param name="ios-package" value="Cordova-Manish" />
+    </feature>
+    </config-file>
+    <source-file src="src/ios/NetCorePushPlugin.m" />
+    <source-file src="src/ios/NetCorePushPlugin.h" />
+    <source-file src="src/ios/NetCorePush.framework" />
+  </platform>
+</plugin>
